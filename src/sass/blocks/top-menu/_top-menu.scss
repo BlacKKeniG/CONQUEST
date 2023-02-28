@@ -1,0 +1,17 @@
+.top-menu {
+    min-width: 422px;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        color: $grey;
+
+
+    }
+}

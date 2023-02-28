@@ -1,0 +1,62 @@
+.slider {
+    width: 521px;
+    height: 446px;
+    position: relative;
+
+    &__display {
+        width: 521px;
+        height: 414px;
+        overflow: hidden;
+    }
+
+    &__tape {
+        display: flex;
+        transition: all 0.6s;
+        height: 100%;
+    }
+
+    &__slide {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    &__nav {
+        margin-top: 20px;
+        width: 63px;
+        height: 12px;
+        display: grid;
+        grid-template-columns: 5px 13px 5px;
+        justify-content: space-between;
+        align-content: center;
+        position: absolute;
+        right: 0;
+        right: 93px;
+    }
+
+    &__nav-prev svg,
+    &__nav-next svg {
+        fill: none
+    }
+
+    &__nav-prev svg path,
+    &__nav-next svg path {
+        stroke: $dark;
+        stroke-width: 0.5;
+    }
+
+    &__current-slide-number {
+        font-family: 'Prata';
+        font-weight: 400;
+        font-size: 12px;
+        align-self: center;
+        justify-self: center;
+        color: $dark;
+    }
+}

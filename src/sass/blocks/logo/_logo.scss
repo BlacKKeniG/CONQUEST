@@ -1,0 +1,18 @@
+.logo {
+    height: 20px;
+
+    &__img {
+        width: 20px;
+        height: 20px;
+    }
+
+    &__company-name {
+        position: relative;
+        bottom: 0.2em;
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 12px;
+        letter-spacing: 0.14em;
+        color: $grey;
+    }
+}

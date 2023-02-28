@@ -1,0 +1,97 @@
+.promo {
+    background: $main-color;
+
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 1366px;
+        background: url("../img/promo/promo-bg-ellipse.png") 469px no-repeat;
+        padding: 0px 114px 0px 120px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 463px 669px;
+    }
+
+    &__main-img-block {
+        height: 768px;
+        position: relative;
+    }
+
+    &__main-img {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        right: 79px;
+        bottom: 0px;
+        transform: rotate(-0.18deg);
+    }
+
+    &__main-img-info {
+        display: flex;
+        align-items: center;
+        font-family: 'Prata';
+        font-weight: 400;
+        font-size: 16px;
+        color: $dark;
+
+        &_price {
+            position: absolute;
+            top: 138px;
+            left: 0;
+
+
+            &__currency-icon {
+                margin: 0 15px 0 7px;
+            }
+        }
+
+        &__diameter {
+            position: absolute;
+            right: 0;
+            bottom: 116px;
+        }
+
+        &__diameter span {
+            margin-left: 15px;
+        }
+    }
+
+    &__contant {
+        align-self: center;
+        display: grid;
+        grid-template: repeat(4, auto)/65px auto;
+
+        &_decor-line {
+            grid-row-start: 1;
+            grid-row-end: 5;
+            margin-top: 31px;
+        }
+
+        &_btn {
+            margin-top: 58px;
+        }
+    }
+
+    &__header_big {
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 45px;
+        color: $dark;
+    }
+
+    &__header_small {
+        margin-top: 5px;
+        font-family: 'Playfair Display';
+        font-weight: 400;
+        font-size: 30px;
+        color: $dark;
+    }
+
+    &__descr {
+        margin-top: 33px;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 21px;
+        color: $grey;
+    }
+}

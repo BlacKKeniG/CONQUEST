@@ -1,0 +1,40 @@
+.banner {
+    &__wrapper {
+        margin: 0 auto;
+        max-width: 1366px;
+        min-height: 519px;
+        padding: 52px 222px 21px 177px;
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 70px;
+
+        background: url("../img/banner/lines_banner.png") 466px 0 no-repeat,
+            linear-gradient(to right,
+                #F7F5EF 0%,
+                #F7F5EF 34.3%,
+                #FDFDFB 34.3%,
+                #FDFDFB 100%);
+
+    }
+
+    &__content {
+        display: grid;
+        grid-template-rows: repeat(3, max-content);
+        align-content: center;
+    }
+
+    &__main-text {
+        margin-top: 38px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    &__btn {
+        margin-top: 45px;
+    }
+
+
+}

@@ -1,0 +1,18 @@
+.counter {
+    width: 13px;
+    height: 13px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_round {
+        border-radius: 50%;
+    }
+
+    &_bg_light-broun {
+        background-color: $light-brown;
+    }
+}
